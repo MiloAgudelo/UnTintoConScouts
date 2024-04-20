@@ -116,11 +116,6 @@
 
 <script>
     function redirectToContact(cupNumber) {
-        var cupCoffee = document.querySelector('.cupCoffee');
-        if (cupCoffee.querySelector('img')) {
-            return;
-        }
-
         window.location.href = "contact.php?cupNumber=" + cupNumber;
     }
 </script>
