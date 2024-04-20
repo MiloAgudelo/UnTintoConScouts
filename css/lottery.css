@@ -1,0 +1,54 @@
+
+  .secondaryContainer {
+    height: 88vh;
+  }
+
+  .cupContainer {
+    width: 7.6vh;
+    height: 7.6vh;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.53vh 0.53vh 0 rgba(0, 0, 0, 0.25);
+    margin: 1vh 0;
+  }
+  
+  .cupStroke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 6.17vh;
+    height: 6.17vh;
+    border-radius: 50%;
+    box-shadow: 0 0.53vh 0.53vh 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .cupCoffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE8F73;
+    width: 5.6vh;
+    height: 5.6vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Add transition for background-color */
+  }
+
+  .cupCoffee:hover {
+    background-color: #503225;
+  }
+
+  .cupCoffee h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 2vh;
+    margin-bottom: 0;
+  }
+
+  .cupCoffee img {
+    width: 4.7vh;
+  }

@@ -1,0 +1,191 @@
+@media only screen and (min-width: 768px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+
+  .cupContainer {
+    width: 7.6vh;
+    height: 7.6vh;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0.53vh 0.53vh 0 rgba(0, 0, 0, 0.25);
+    margin: 1vh 0;
+  }
+  
+  .cupStroke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 6.17vh;
+    height: 6.17vh;
+    border-radius: 50%;
+    box-shadow: 0 0.53vh 0.53vh 0 rgba(0, 0, 0, 0.25);
+  }
+
+  .cupCoffee {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #BE8F73;
+    width: 5.6vh;
+    height: 5.6vh;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .cupCoffee:hover {
+    background-color: #503225;
+  }
+
+  .cupCoffee input {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 2.4vh;
+    margin-bottom: 0;
+    width: 4vh;
+    background-color: transparent !important;
+    border: none !important;
+    text-align: center;
+  }
+
+  .questionContainer h1 {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -2px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #503225;
+    text-align: center;
+  }
+
+  .formContainer {
+    width: 80vh;
+  }
+
+  .formContainer input{
+    border: none;
+    background-color: rgba(190, 143, 115, 0.51);
+    border: 1px solid #BE8F73;
+    border-radius: 10px;
+    height: 4.7vh;
+    
+  }
+
+  .formContainer select{
+    border: none;
+    background-color: rgba(190, 143, 115, 0.51);
+    border: 1px solid #BE8F73;
+    border-radius: 10px;
+    height: 4.7vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #503225;
+  }
+
+  .formContainer button{
+    border: none;
+    background-color: rgba(190, 143, 115, 0.51);
+    border: 1px solid #BE8F73;
+    border-radius: 10px;
+    height: 4.7vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #503225;
+    margin-bottom: 0.5vh;
+  }
+
+  .formContainer label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #503225;
+    margin-bottom: 0.5vh;
+  }
+
+  .formContainer #upload {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    color: #503225;
+  }
+
+  .formContainer img {
+    width: 40vh;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  .form-control:focus {
+    outline: none !important;
+    border-color: initial !important;
+    box-shadow: none !important;
+    background-color: rgba(190, 143, 115, 0.51) !important;
+    color: #503225;
+  }
+
+  .mainContainer h2 {
+    font-size: 2.2vh;
+    font-weight: 600;
+    color: #503225;
+    margin-top: 1.5vh;
+    margin-bottom: -1vh;
+  }
+
+  .modal .modal-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5vh;
+    font-weight: 600;
+    color: #503225;
+  }
+
+  .modal button {
+    border: none;
+    background-color: #BE8F73;
+    color: #503225;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2vh;
+    font-weight: 600;
+    padding: 1vh 2vh;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .modal button:hover {
+    background-color: #503225;
+    color: #BE8F73;
+  }
+
+  .modal-body img {
+    width: 85%;
+  }
+
+  .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-body p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4vh;
+    font-weight: 400;
+    color: #503225;
+    margin-bottom: 1vh;
+  }
+
+  #cup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
